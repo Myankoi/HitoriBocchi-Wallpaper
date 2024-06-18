@@ -1,0 +1,120 @@
+@font-face {
+    font-family: ledFonts;
+    src: url(./fonts/Technology.ttf);
+}
+
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+div
+{
+    overflow-x : hidden;
+    overflow-y : hidden;
+}
+
+.body_t
+{
+    overflow-x : hidden;
+    overflow-y : hidden;
+    width : var(--view_width);
+    height : var(--view_height);
+    z-index : 0;
+}
+
+.bg_night
+{
+    width : var(--view_width);
+    height : var(--view_height);
+    z-index : 1;
+    position : absolute;
+    transition : opacity 1s;
+    top : 0px;
+    left : 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.bg_dawn
+{
+    width : var(--view_width);
+    height : var(--view_height);
+    z-index : 2;
+    position : absolute;
+    transition : opacity 1s;
+    top : 0px;
+    left : 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.date
+{
+    position: absolute;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    left: 0;
+    bottom: 0;
+    font-size: 8rem;
+    font-family: ledFonts;
+    color: #f9f5ed;
+    z-index: 2;
+}
+
+
+.time
+{
+    position: absolute;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    right: 0;
+    bottom: 0;
+    font-size: 8rem;
+    font-family: ledFonts;
+    color: #f9f5ed;
+    transition: opacity 1s ease-in;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    z-index: 2;
+}
+
+.month 
+{
+    transition: opacity 1s ease-in;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+}
+
+.date_of_month 
+{
+    line-height: 1;
+    transition: opacity 1s ease-in;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+}
+
+.ordinal 
+{
+    font-size: 4rem;
+    line-height: 1;
+    vertical-align: top;
+    transition: opacity 1s ease-in;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+}
+

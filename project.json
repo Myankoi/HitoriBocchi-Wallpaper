@@ -1,0 +1,75 @@
+{
+    "workshopid" : "",
+	"description" : "[img]https://i.imgur.com/Ddktk2L.gif[/img]
+
+
+[h1] Hitori bocchi [ぼっち・ざ・ろっく! - Bocchi the Rock!] [/h1]
+[h3] 
+Bocchi the rock!
+Bocchi
+Gotou hitori
+ぼっちざろっく!
+孤独摇滚
+孤獨搖滾
+[/h3]
+
+
+
+
+
+[b] - Time responsive wallpaper [/b]
+[b] - click bocchi to interact [/b]
+
+
+
+
+
+
+[b] - Source : [/b]
+
+https://aber1047.github.io/HitoriBocchi/
+
+https://github.com/ABER1047/HitoriBocchi
+
+[b] (PC/Mobile available) [/b]
+
+
+
+
+[img]https://i.imgur.com/p7Fv1Z6.gif[/img]
+
+[img]https://steamuserimages-a.akamaihd.net/ugc/2024962041552936497/8BD258D94D8343EC748A45590E8329675C8664BD/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img]
+
+
+
+
+[b] - Other works : [/b]
+
+https://steamcommunity.com/id/324tyAQASDG/myworkshopfiles/
+
+
+
+
+[b] - Q/A : [/b]
+
+国内小伙伴用不了的原因是谷歌没有在国内开放ajax公共库服务
+将html内 ajax.googleapis.com替换为国内镜像ajax.lug.ustc.edu.cn即可",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.7647058823529411 0.3764705882352941 0.07450980392156863"
+			}
+		}
+	},
+	"preview" : "Preview_new.gif",
+	"tags" : ["Anime"],
+	"title" : "[Day/Night] Hitori bocchi (ぼっち・ざ・ろっく! - Bocchi the Rock!)",
+	"visibility" : "public"
+}
