@@ -51,6 +51,17 @@ div
     height: 100%;
 }
 
+.obj_bocchi {
+    -webkit-tap-highlight-color: transparent; /* For Safari and Chrome on iOS */
+    outline: none; /* For all browsers */
+}
+
+.obj_bocchi:focus,
+.obj_bocchi:active {
+    outline: none;
+}
+
+
 .date
 {
     position: fixed;
