@@ -10,15 +10,16 @@
 
 ------------------
 
+### disclaimer, I took the source code from the original code and added a little time information to the wallpaper such as month, date and digital clock.
+#### Source Code (OG) : https://github.com/Wallpapers-Projects-ABER/HitoriBocchi
 
-#### You can use this as wallpaper in "Wallpaper Engine"
+#### You can use this as wallpaper in "Wallpaper Engine" (only for the OG version)
 
-#### Download :
+#### Download (OG) :
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2945142270
 
-
-#### Preview :
+#### Preview (myVer) :
 
 https://Wallpapers-Projects-ABER.github.io/HitoriBocchi/
 
