@@ -17,9 +17,7 @@
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2945142270
 
-</br></br>
-
-![preview_2](Preview_full.gif)
+</br>
 
 #### Preview :
 
@@ -30,7 +28,6 @@ https://Wallpapers-Projects-ABER.github.io/HitoriBocchi/
 
 ##### Time responsive
 ##### click bocchi to interact
-##### PC/Mobile available
 
 
 
