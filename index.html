@@ -50,6 +50,7 @@
     <div id="effects" style="z-index: 10"></div>
     <div id="stars_bg" style="z-index: 10"></div>
 
+    <!-- MM/DD/YYYY -->
     <div class="date">
       <span class="month" id="month">Jan</span>
       <span class="date_of_month" id="date_of_month">20</span
@@ -76,31 +77,38 @@
         "Dec",
       ];
       const elementsToAnimate = ["month", "date_of_month", "time", "ordinal"];
-      const date = new Date();
-      let ordinal = "st";
 
-      document.getElementById("month").textContent =
-        monthNames[date.getMonth()];
+      function updateTime() {
+        const date = new Date();
+        let ordinal = "th";
 
-      if (date.getDate() == 1) {
-        ordinal = "st";
-      } else if (date.getDate() == 2) {
-        ordinal = "nd";
-      } else if (date.getDate() == 3) {
-        ordinal = "rd";
-      } else {
-        ordinal = "th";
+        document.getElementById("month").textContent =
+          monthNames[date.getMonth()];
+
+        if (
+          date.getDate() == 1 ||
+          date.getDate() == 21 ||
+          date.getDate() == 31
+        ) {
+          ordinal = "st";
+        } else if (date.getDate() == 2 || date.getDate() == 22) {
+          ordinal = "nd";
+        } else if (date.getDate() == 3 || date.getDate() == 23) {
+          ordinal = "rd";
+        }
+
+        document.getElementById("date_of_month").textContent = date.getDate();
+        document.getElementById("ordinal").textContent = ordinal;
+
+        const hours = date.getHours().toString().padStart(2, "0");
+        const minutes = date.getMinutes().toString().padStart(2, "0");
+        document.getElementById("time").textContent = hours + ":" + minutes;
       }
 
-      document.getElementById("date_of_month").textContent = date.getDate();
-      document.getElementById("ordinal").textContent = ordinal;
-
-      const hours = date.getHours().toString().padStart(2, "0");
-      const minutes = date.getMinutes().toString().padStart(2, "0");
-      document.getElementById("time").textContent = hours + ":" + minutes;
-
       document.addEventListener("DOMContentLoaded", () => {
+        updateTime();
         startOpacityAnimation();
+        setInterval(updateTime, 60000);
       });
 
       function toggleOpacity(elementId) {
