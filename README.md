@@ -21,6 +21,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2945142270
 
 #### Preview (myVer) :
 
+![preview_2](previewGif.gif)
+
 https://myankoi.github.io/HitoriBocchi-Wallpaper/
 
 </br>
