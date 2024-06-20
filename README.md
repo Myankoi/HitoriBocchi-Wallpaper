@@ -25,7 +25,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2945142270
 
 https://myankoi.github.io/HitoriBocchi-Wallpaper/
 
-</br>
 
 ##### Time responsive
 ##### click bocchi to interact
