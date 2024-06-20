@@ -21,8 +21,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2945142270
 
 #### Preview (myVer) :
 
-https://Wallpapers-Projects-ABER.github.io/HitoriBocchi/
-
+https://myankoi.github.io/HitoriBocchi-Wallpaper/
 
 </br>
 
